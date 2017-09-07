@@ -18,7 +18,7 @@ defmodule FamilySearch.Mixfile do
   defp deps do
     [{:httpoison, "~> 0.13.0"},
      {:poison, "~> 3.1"},
-     {:dialyxir, "~> 0.5.1", [only: [:dev], runtime: false]},
+     {:dialyxir, "~> 0.5.1", [only: [:dev, :test], runtime: false]},
      {:exfmt, "~> 0.4.0", [only: [:dev], runtime: false]}]
   end
 end
